@@ -1,0 +1,176 @@
+body {
+    background-color: rgb(14, 14, 14);
+    
+}
+
+.header p {
+    margin-top: 20px;
+    font-family: 'Satisfy', cursive;
+    font-size: 28px;
+    color: rgb(230, 230, 230);
+    text-align: center;
+}
+
+.header h2 {
+    font-family: 'Satisfy', cursive;
+    font-size: 36px;
+    color: rgb(255, 217, 0);
+    text-align: center;
+}
+
+.interface {
+    width: 40%;
+    background-color: rgb(39, 23, 0);
+    align-content: center;
+    margin: 20px auto;
+}
+
+.interface a {
+    width: 100%;
+    align-content: center;
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.interface a div h3 {
+  font-family: 'Satisfy', cursive;
+    font-size: 24px;
+    color: rgb(255, 217, 0);
+    font-weight: 900;
+    padding-left: 30px;
+    padding-bottom: 10px;
+}
+
+.interface a div p {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    color: rgb(219, 219, 219);
+    
+    padding-left: 30px;
+}
+
+img {
+    width: 160px;
+}
+
+.img-avatar {
+    width: 300px !important;
+    height: 300px !important;
+    margin: 0 auto;
+    display: block;
+  }
+
+.interface div h3 {
+    text-align: center;
+    font-family: 'Satisfy', cursive;
+    font-size: 24px;
+    color: rgb(255, 217, 0);
+    font-weight: 900;
+    padding-left: 30px;
+    padding-bottom: 10px;
+}
+
+.interface div p {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    color: rgb(219, 219, 219);
+    padding-left: 30px;
+    padding-bottom: 20px;
+}
+  
+  .interface a:hover {
+    background-color: #3c1d3d;
+  }
+  
+  .actions {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .btn-prefight {
+    display: inline-block;
+    width: 40% !important;
+        
+  }
+  
+  .actions a {
+    width: 33.33%;
+    padding: 10px 0px;
+    text-align: center;
+    font-size: 14px;
+    font-family: arial;
+    color: #1b1b1b;
+  }
+  
+  .actions a:nth-of-type(1) {
+    background-color: #e64747;
+  }
+  
+  .actions a:nth-of-type(2) {
+    background-color: #e6ce47;
+  }
+  
+  .actions a:nth-of-type(3) {
+    background-color: #6de647;
+  }
+  
+  .actions a:hover {
+    opacity: 0.9;
+  }
+  
+  .arena {
+    width: 100%;
+    height: 180px;
+    background-color: #1d373d;
+    background-image: url("images/arena-bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    visibility: hidden;
+  }
+  
+  .enemy {
+    width: 40%;
+    background-color: rgb(39, 23, 0);
+    align-content: center;
+    margin: 20px auto;
+  }
+  
+  .enemy a {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  
+  .enemy img {
+    width: 120px;
+    height: 120px;
+  }
+  
+  
+  .enemy a:hover div {
+    background-color: #3c1d3d;
+  }
+  
+  .enemy div h3 {
+    text-align: center;
+    font-family: 'Satisfy', cursive;
+    font-size: 24px;
+    color: rgb(255, 217, 0);
+    font-weight: 900;
+    padding-left: 30px;
+    padding-bottom: 10px;
+  }
+  
+  .enemy div p {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    color: rgb(219, 219, 219);
+    padding-left: 30px;
+    padding-bottom: 20px;
+  }
+

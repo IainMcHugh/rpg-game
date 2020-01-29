@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link href="https://fonts.googleapis.com/css?family=Acme&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Satisfy&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="resetstyle.css">
+        <link rel="stylesheet" href="style.css">
+        <title>Video Game</title>
+    </head>
+    <body>
+        <div class="header">
+            <p>Play the greatest RPG ever to be made!</p>
+            <h2>Choose your Character!</h2>
+        </div>
+        <div class="interface">
+            <a href="#" class="player-selection" id="Cyclops">
+                <img src="images/avatar_player/cyclops.jpg" alt="Cyclops">
+                <div>
+                    <h3>Cyclops</h3>
+                    <p>Cyclops are fast and have high stamina and speed which makes up
+                        for their lack of strength and health.</p>
+                </div>
+            </a>
+            <a href="#" class="player-selection" id="Dwarf">
+                <img src="images/avatar_player/dwarf.jpg" alt="Dwarf">
+                <div>
+                    <h3>Dwarf</h3>
+                    <p>Dwarves have higher strength and stamina, however their
+                        strength also makes them slower and clumsier.</p>
+                </div>
+            </a>
+            <a href="#" class="player-selection" id="Lion">
+                <img src="images/avatar_player/lion.jpg" alt="Lion">
+                <div>
+                    <h3>Lion</h3>
+                    <p>Lions are glass canons which put all their efforts into
+                        spells. This means they lack in everything else.
+                    </p>
+                </div>
+            </a>
+            <a href="#" class="player-selection" id="Rat">
+                <img src="images/avatar_player/rat.jpg" alt="Rat">
+                <div>
+                    <h3>Rat</h3>
+                    <p>Rats are well rounded fighters that focus on evening out their
+                        skills. No strengths or weaknesses.
+                    </p>
+                </div>
+            </a>
+        </div>
+        <div class="actions"></div>
+        <div class="arena"></div>
+        <div class="enemy"></div>
+        <script src="js/gamemanager.js"></script>
+        <script src="js/player.js"></script>
+        <script src="js/enemy.js"></script>
+    </body>
+</html>
